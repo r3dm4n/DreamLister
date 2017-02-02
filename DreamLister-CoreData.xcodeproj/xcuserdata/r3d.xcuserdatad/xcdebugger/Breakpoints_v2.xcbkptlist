@@ -9,14 +9,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Image+CoreDataClass.swift"
-            timestampString = "507714770.774553"
+            filePath = "DreamLister-CoreData/MainVC.swift"
+            timestampString = "507744082.816091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "Image"
-            landmarkType = "3">
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "controller(_:didChange:at:for:newIndexPath:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

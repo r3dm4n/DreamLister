@@ -25,6 +25,7 @@
 		BE7721631E431B8900D4743B /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE77215B1E431B8900D4743B /* Image+CoreDataProperties.swift */; };
 		BE7721671E4356E500D4743B /* 7651.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE7721661E4356E500D4743B /* 7651.jpg */; };
 		BE77216A1E43576800D4743B /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7721691E43576800D4743B /* MaterialView.swift */; };
+		BE77216C1E435FEE00D4743B /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE77216B1E435FEE00D4743B /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		BE77215B1E431B8900D4743B /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BE7721661E4356E500D4743B /* 7651.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7651.jpg; sourceTree = "<group>"; };
 		BE7721691E43576800D4743B /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		BE77216B1E435FEE00D4743B /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +123,9 @@
 		BE7721221E43169200D4743B /* DreamLister-CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				BE7721231E43169200D4743B /* AppDelegate.swift */,
-				BE7721251E43169200D4743B /* MainVC.swift */,
 				BE7721271E43169200D4743B /* Main.storyboard */,
+				BE7721251E43169200D4743B /* MainVC.swift */,
+				BE7721231E43169200D4743B /* AppDelegate.swift */,
 				BE7721661E4356E500D4743B /* 7651.jpg */,
 				BE77212D1E43169200D4743B /* Assets.xcassets */,
 				BE77212F1E43169200D4743B /* LaunchScreen.storyboard */,
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				BE7721691E43576800D4743B /* MaterialView.swift */,
+				BE77216B1E435FEE00D4743B /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE77216C1E435FEE00D4743B /* ItemCell.swift in Sources */,
 				BE77215E1E431B8900D4743B /* ItemType+CoreDataClass.swift in Sources */,
 				BE77212C1E43169200D4743B /* DreamLister_CoreData.xcdatamodeld in Sources */,
 				BE7721261E43169200D4743B /* MainVC.swift in Sources */,
@@ -496,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.r3dm4n.DreamLister-CoreData";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
