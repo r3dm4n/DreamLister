@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE77211F1E43169200D4743B"
+               BuildableName = "DreamLister-CoreData.app"
+               BlueprintName = "DreamLister-CoreData"
+               ReferencedContainer = "container:DreamLister-CoreData.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE7721361E43169200D4743B"
+               BuildableName = "DreamLister-CoreDataTests.xctest"
+               BlueprintName = "DreamLister-CoreDataTests"
+               ReferencedContainer = "container:DreamLister-CoreData.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE7721411E43169200D4743B"
+               BuildableName = "DreamLister-CoreDataUITests.xctest"
+               BlueprintName = "DreamLister-CoreDataUITests"
+               ReferencedContainer = "container:DreamLister-CoreData.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE77211F1E43169200D4743B"
+            BuildableName = "DreamLister-CoreData.app"
+            BlueprintName = "DreamLister-CoreData"
+            ReferencedContainer = "container:DreamLister-CoreData.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE77211F1E43169200D4743B"
+            BuildableName = "DreamLister-CoreData.app"
+            BlueprintName = "DreamLister-CoreData"
+            ReferencedContainer = "container:DreamLister-CoreData.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE77211F1E43169200D4743B"
+            BuildableName = "DreamLister-CoreData.app"
+            BlueprintName = "DreamLister-CoreData"
+            ReferencedContainer = "container:DreamLister-CoreData.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
